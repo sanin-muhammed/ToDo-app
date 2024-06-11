@@ -1,0 +1,58 @@
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #ffffff19;
+    border-radius: 5px;
+}
+.tasks{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background: red; */
+    overflow-y: scroll;
+    height: 400px;
+    border-radius: 10px;
+}
+.tasks::-webkit-scrollbar{
+    display: none;
+}
+.tasks h2{
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff10;
+    padding: 20px;
+    border-radius: 10px;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input{
+    padding: 10px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+.create_btn{
+    width: 100px !important;
+    margin-left: auto;
+}
